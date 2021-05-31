@@ -1,0 +1,200 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+:root{
+	--azulClaro: #48dbfb;
+	--negro: #262E3F;
+	--blanco: #c8d6e5;
+	--gris:rgba(87, 101, 116,.2);
+}
+#back{
+	margin-left: 38%;
+	margin-top: 5%;
+	height: 850px;
+	width: 450px;
+	background-color: var(--negro);
+	border-radius: 40px;
+}
+.claro{
+	background: var(--blanco) !important;
+}
+.oscuro{
+	background: var(--negro);
+}
+.tclaro{
+	color: var(--negro) !important;
+}
+.toscuro{
+	color: var(--blanco);
+}
+.gris{
+	background: var(--gris);
+}
+#screen{
+	width: 100%;
+	height: 30%;
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	border-radius: 40px;
+}
+	#espacio1{
+		width: 100%;
+		height: 70%;
+		box-sizing: border-box;
+		position: relative;
+		float: left;
+		overflow: hidden;
+	}
+		#mode{
+			width: 100px;
+			height: 35px;
+			position: relative;
+			float: left;
+			margin-left: 39%; 
+			margin-top: 10px;
+			border-radius: 10px;
+			box-sizing: border-box;
+			background-color: var(--gris);
+			padding-top: 5px;
+			padding-left: 10px;
+
+		}
+			#solar{
+				filter: invert(35%);
+				position: relative;
+				float: left;
+				padding-right: 35px;
+				cursor: pointer;
+			}
+			#moon{
+				height: 23px;
+				cursor: pointer;
+				filter: invert(50%);
+			}
+	#espacio2{
+		width: 60%;
+		height: 30%;
+		box-sizing: border-box;
+		position: relative;
+		float: left;
+		overflow: hidden;
+	}
+	#espacio3{
+		width: 38%;
+		margin-right: 4px;
+		height: 30%;
+		box-sizing: border-box;
+		position: relative;
+		float: left;
+		overflow: hidden;
+		text-align: right;
+		font-family: 'Roboto', sans-serif;
+		font-size: 50px;
+	}
+		#ope, #Res{
+			width: 95%;
+			height: 50%;
+			box-sizing: border-box;
+			position: relative;
+			float: left;
+			overflow: hidden;
+			text-align: right;
+			font-family: 'Roboto', sans-serif;
+			font-size: 30px;
+		}
+		#ope{
+			color: #ADB8C5;
+		}
+		#Res{
+			color: #76DBFB;
+		}
+#teclas{
+	width: 100%;
+	height: 66.5%;
+	margin-top: 30px;
+	background-color: var(--gris);
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	border-radius: 40px;
+}
+		#botonC{
+			margin: 20px;
+			width: 80px;
+			height: 80px;
+			background: var(--gris);
+			position: relative;
+			float: left;
+			font-family: 'Roboto', sans-serif;
+			font-size: 30px;
+			text-align: center;
+			box-sizing: border-box;
+			padding-top: 22px;
+			border-radius: 60px;
+			color: #595173;
+			cursor: pointer;
+		}
+		#boton-espacio{
+			margin-top: 20px;
+			margin-right: 25px; 
+			width: 40%;
+			height: 80px;
+			position: relative;
+			float: left;
+		}
+		#boton-div{
+			margin: 20px;
+			width: 80px;
+			height: 80px;
+			background-color: pink;
+			position: relative;
+			float: left;
+			cursor: pointer;
+		}
+		.centro{
+			margin: 15px;
+			width: 80px;
+			height: 80px;
+			position: relative;
+			float: left;
+			font-family: 'Roboto', sans-serif;
+			font-size: 30px;
+			text-align: center;
+			box-sizing: border-box;
+			padding-top: 22px;
+			border-radius: 60px;
+		}
+		#boton-div, #botonx, #boton-menos, #boton-mas{
+			background: var(--gris);
+			color: #76DBFB;
+			cursor: pointer;
+		}
+		#boton1, #boton2, #boton3, #boton4, #boton5, #boton6, #boton7, #boton8, #boton9, #boton0{
+			color: #A1A8B9;
+			cursor: pointer;
+		}
+		#boton-igual{
+			background-color: #74D8F7;
+			color: #C3D6E6;
+			cursor: pointer;
+		}
+
+		#boton-espacio2{
+			margin: 20px;
+			width: 40%;
+			height: 80px;
+			position: relative;
+			float: left;
+			font-family: 'Roboto', sans-serif;
+			font-size: 30px;
+			text-align: right;
+			color: #A1A8B9;
+			box-sizing: border-box;
+			padding-top: 30px;
+			cursor: pointer;
+		}
