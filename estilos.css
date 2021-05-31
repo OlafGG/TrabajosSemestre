@@ -1,0 +1,19 @@
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background: #f8a5c2;
+}
+button{
+	margin-left: 23%;
+	margin-top: 100px;
+	height: 150px;
+	width: 300px;
+	background: #63cdda;
+}
+h1{
+	text-align: center;
+	size: 40px;
+}
